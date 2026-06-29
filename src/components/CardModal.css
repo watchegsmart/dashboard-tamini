@@ -1,0 +1,17 @@
+.blink-green {
+  animation: blinkBorder 0.5s step-start 3;
+  border-color: #28a745 !important;
+}
+
+.blink-green-text {
+  animation: blinkText 0.5s step-start 3;
+  color: #28a745;
+}
+
+@keyframes blinkBorder {
+  50% { border-color: transparent !important; }
+}
+
+@keyframes blinkText {
+  50% { color: transparent; }
+}
